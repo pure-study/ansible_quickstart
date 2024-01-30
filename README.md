@@ -19,4 +19,6 @@ ansible myhosts -m ping -i inventory.ini -u sshuser
 
 ansible myhosts -m ping -i inventory.yml
 
+ansible-playbook -i inventory.yml playbook.yml
+
 ```
