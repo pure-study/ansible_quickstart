@@ -17,4 +17,6 @@ Relevant commands of this repository:
 ansible-inventory -i inventory.ini --list
 ansible myhosts -m ping -i inventory.ini -u sshuser
 
+ansible myhosts -m ping -i inventory.yml
+
 ```
