@@ -3,5 +3,8 @@ myhosts:
     my_host_01:
       ansible_host: 127.0.0.1
       ansible_port: 2222
+    my_host_02:
+      ansible_host: 127.0.0.1
+      ansible_port: 2223
   vars:
     ansible_user: sshuser
